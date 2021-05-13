@@ -1,4 +1,4 @@
-# Bandit Level x to y Writeup
+# Bandit Level 14 to 15 Writeup
 
 Author: [Soham Samaddar](https://github.com/CrypthiccCrypto)
 
@@ -6,19 +6,20 @@ Problem Page: [bandit14](https://overthewire.org/bandit/bandit14)
 
 ## List of Commands Used
 ```
-ls - list files in a directory
+nc - to connect with another port
 ```
 
 ## Walkthrough
-How did you solve this level? Include the complete thought process, even stuff that didn't work. Give explanations wherever necessary.
+Initially, I had no idea what to do. Reading the manpages of each of the suggested commands gave me some idea that this level would probably involve the nc command. Following a tutorial on YouTube on netcat I was finally able to solve this level, albeit my understanding of this topic still remains shaky.  
 
 ## Password
-`password`
+BfMYroe26WYalil77FoDi9qh59eK5xNr
 
 ## Bash/Python script to automate the process
 ```
-some-commands
+nc -nv 127.0.0.1 30000
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
 ```
 
 ## Suggested modifications [Optional]
-What can you do to make this level more difficult. The inherent idea should be similar.
+
