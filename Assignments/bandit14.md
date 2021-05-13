@@ -6,7 +6,7 @@ Problem Page: [bandit14](https://overthewire.org/bandit/bandit14)
 
 ## List of Commands Used
 ```
-nc - to connect with another port
+nc - used to connect with another port
 ```
 
 ## Walkthrough
