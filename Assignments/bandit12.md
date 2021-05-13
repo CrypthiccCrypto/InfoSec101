@@ -27,7 +27,26 @@ The hardest part was realizing that I had to convert the given file to a hexdump
 
 ## Bash/Python script to automate the process
 ```
-jj
+mkdir /tmp/sol
+cp data.txt /tmp/sol
+cd /tmp/sol
+xxd -r data.txt 1.gz
+gzip -d 1.gz
+mv 1 1.bz2
+bzip2 -d 1.bz2
+mv 1 2.gz
+gzip -d 2.gz
+mv 2 1.tar
+tar -xvf 1.tar
+mv data5.bin 2.tar
+tar -xvf 2.tar
+mv data6.bin 2.bz2
+bzip2 -d 2.bz2
+mv 2 3.tar
+tar -xvf 3.tar
+mv data8.bin 69.gz
+gzip -d 69.gz
+cat 69
 ```
 
 ## Suggested modifications [Optional]
